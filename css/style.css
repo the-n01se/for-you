@@ -1,0 +1,106 @@
+.container {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Noto Sans";
+  font-size: 14px;
+  line-height: 28px;
+  color: #575757;
+}
+
+body a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  height: 100vh;
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(215, 61, 108, 0.7) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.menu__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu__list-item {
+  padding: 20px;
+}
+
+.header__subtitle {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.header__title {
+  text-align: center;
+  font-size: 36px;
+  line-height: 42px;
+}
+.header__titles {
+  padding-top: 200px;
+}
+.gallery {
+  padding-top: 40px;
+}
+.gallery__inner {
+  width: inherit;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery__img {
+  padding-bottom: 40px;
+  width: 70%;
+}
+
+.gallery__title {
+  text-align: center;
+  font-size: 28px;
+  line-height: 36px;
+  margin-bottom: 50px;
+}
+
+.fancybox__image {
+  width: 85%;
+}
+
+.wishes {
+  padding-top: 40px;
+}
+.wishes__title {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 28px;
+  line-height: 36px;
+  margin-bottom: 50px;
+}
+.s-title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.wishes__text {
+  text-align: center;
+}
+
+.footer__title {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 36px;
+  margin-bottom: 50px;
+}
